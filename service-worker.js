@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/itayayuichiro/source_memo/precache-manifest.3460ab9975e6a3517c154fe55d447b5d.js"
+  "/source_memo-pages/precache-manifest.0695e85bc463091ecc80ecd6c4a091e4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/itayayuichiro/source_memo/index.html", {
+workbox.routing.registerNavigationRoute("/source_memo-pages/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
